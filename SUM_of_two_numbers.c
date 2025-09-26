@@ -11,5 +11,4 @@ void main()
     scanf("%d", &c);
 
     printf("SUM of %d %d %d = %d", a, b, c, (a + b + c));
-    getch();
 }
