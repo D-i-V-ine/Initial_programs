@@ -10,6 +10,6 @@ void main()
     printf("Enter third number : ");
     scanf("%d", &c);
 
-    printf("SUM of  %d %d %d = %d", a, b, c, (a + b + c));
+    printf("SUM of %d %d %d = %d", a, b, c, (a + b + c));
     getch();
 }
