@@ -2,9 +2,9 @@
 #include <conio.h>
 void main()
 {
-    int a, b, c ;
+    int a, b, c;
     char i;
-    for (i = 'y'; i == 'y' && i == 'Y';)
+    for (i = 'y'; i == 'y' || i == 'Y';)
     {
 
         printf("Enter first number : ");
@@ -15,7 +15,9 @@ void main()
         scanf("%d", &c);
 
         printf("%d + %d + %d = %d", a, b, c, (a + b + c));
+
         printf("\nDo you want to continue (y/n) : ");
-        scanf(" %c", &i);
+        i = getche();
+        printf("\n");
     }
 }
