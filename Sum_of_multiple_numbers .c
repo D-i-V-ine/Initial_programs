@@ -2,7 +2,7 @@
 #include <conio.h>
 void main()
 {
-    int a, b, c, ;
+    int a, b, c ;
     char i;
     for (i = 'y'; i == 'y' && i == 'Y';)
     {
