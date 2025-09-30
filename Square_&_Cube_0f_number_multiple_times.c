@@ -6,7 +6,7 @@ void main()
     int num, sq, cu;
     char a = 'y';
 
-    for (a; a == 'y' || a == 'Y';)
+    for (a ; a == 'y' || a == 'Y';)
     {
         printf("Enter a number : ");
         scanf("%d", &num);
