@@ -2,7 +2,7 @@
 #include <conio.h>
 void main()
 {
-    int n, sum = 0, i;
+    int n,i, sum = 0 ;
     printf("Enter any natural number: ");
     scanf("%d", &n);
     for (i = 1; i <= n; ++i)
