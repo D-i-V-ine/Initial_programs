@@ -9,7 +9,7 @@ void main()
     {
         printf("Factorial of a negative number doesn't exist");
     }
-    else if(x>0)
+    else if (x > 0)
     {
         if (x != 0)
         {
@@ -20,9 +20,9 @@ void main()
         }
         printf("Factorial = %d", y);
     }
-  
+
     else
     {
         printf("Enter valid input");
     }
-}   
+}
