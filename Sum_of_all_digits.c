@@ -6,7 +6,7 @@ void main()
     int sum = 0;
     printf("Enter your  number : ");
     scanf("%d", &a);
-    for (a; a > 0; a=(a / 10))
+    for (a; a > 0; a = (a / 10))
     {
         sum += (a % 10);
     }
