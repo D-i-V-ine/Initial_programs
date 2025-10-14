@@ -4,12 +4,10 @@ void main()
 {
     int A[10][10], B[10][10], M[10][10];
     int i, j, k, r, c, r1, r2, z, y, a, c1, c2;
-
     for (k = 0; k < 2; k++)
     {
         printf("Enter of rows (<10) : ");
         scanf("%d", &r);
-
         printf("Enter of columns (<10) : ");
         scanf("%d", &c);
         for (i = 0; i < r; i++)
@@ -45,11 +43,9 @@ void main()
             a = 0;
             for (i = 0; i < c2; i++)
             {
-
                 y = 0;
                 for (j = 0; j < r2; j++)
                 {
-
                     z = A[k][j] * B[j][i];
                     y = y + z;
                 }
