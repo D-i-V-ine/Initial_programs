@@ -4,9 +4,7 @@ void main()
 {
     int i, a;
     int A[100];
-
     printf("Enter \"any alphabet\" to stop entering elements in array\n");
-
     i = 0;
     while (1)
     {
@@ -25,7 +23,6 @@ void main()
         printf("%d", A[j]);
         if (j != i - 1)
         {
-
             printf(",");
         }
     }
