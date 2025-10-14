@@ -16,7 +16,6 @@ void main()
             scanf("%d", &A[i][j]);
         }
     }
-
     printf("\nMatrix A : \n");
     for (i = 0; i < r; i++)
     {
