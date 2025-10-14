@@ -8,7 +8,6 @@ void main()
     scanf("%d", &r);
     printf("Enter of columns (<10) : ");
     scanf("%d", &c);
-
     for (k = 0; k < 2; k++)
     {
         for (i = 0; i < r; i++)
