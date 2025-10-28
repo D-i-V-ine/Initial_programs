@@ -6,9 +6,9 @@ void main()
     int i, j, k, r, c, r1, r2, z, y, a, c1, c2;
     for (k = 0; k < 2; k++)
     {
-        printf("Enter of rows (<10) : ");
+        printf("Enter no of rows (<10) : ");
         scanf("%d", &r);
-        printf("Enter of columns (<10) : ");
+        printf("Enter no of columns (<10) : ");
         scanf("%d", &c);
         for (i = 0; i < r; i++)
         {
