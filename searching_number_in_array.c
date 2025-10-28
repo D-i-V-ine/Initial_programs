@@ -18,4 +18,20 @@ void main()
 
     while (getchar() != '\n')
         ;
+
+    printf("\nEnter number to be searched: ");
+    scanf(" %d", &c);
+
+    while (i--)
+    {
+        if (A[i] == c)
+        {
+            printf("%d found at position %d", c, i + 1);
+            break;
+        }
+    }
+    if (i == -1)
+    {
+        printf("Number not found\n");
+    }
 }
