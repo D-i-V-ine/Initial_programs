@@ -9,11 +9,13 @@ void main()
     do
     {
         printf("Enter input: ");
-        a = scanf("%d", &b);
+        a = scanf("%d", &A[i]);
+        if (a == 0)
         {
-            A[i] = b;
-            i++;
+            break;
         }
+        i++;
+
     } while (a == 1);
 
     while (getchar() != '\n')
