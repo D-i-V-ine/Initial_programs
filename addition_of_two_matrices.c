@@ -6,7 +6,7 @@ void main()
     int i, j, k, r, c;
     printf("Enter no of rows (<10) : ");
     scanf("%d", &r);
-    printf("Enter no of columns (<10) : ");
+    printf("Enter noof columns (<10) : ");
     scanf("%d", &c);
     for (k = 0; k < 2; k++)
     {
