@@ -24,8 +24,6 @@ void main()
             break;
         }
     }
-
-
     int A[i];
     for (j = 0; j < i; j++)
     {
