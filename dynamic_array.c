@@ -19,12 +19,12 @@ void main()
         }
         else
         {
+            while (getchar() != '\n')
+                ;
             break;
         }
     }
 
-    while (getchar() != '\n')
-        ;
 
     int A[i];
     for (j = 0; j < i; j++)
