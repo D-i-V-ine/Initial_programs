@@ -10,7 +10,7 @@ int *inputint(int *c)
     i = 0;
     while (1)
     {
-        printf("Enter the number of element: ");
+        printf("Enter the element: ");
         a = scanf("%d", &n);
         *(p + i) = n;
         if (a == 1)
