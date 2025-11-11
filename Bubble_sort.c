@@ -36,9 +36,9 @@ void main()
     free(p);
 
     int temp = 0, k;
-    for (k = 0; k<i-1; k++)
+    for (k = 0; k < i - 1; k++)
     {
-        for (j = 0;j <i-k-1; j++)
+        for (j = 0; j < i - k - 1; j++)
         {
             if (A[j] > A[j + 1])
             {
@@ -54,5 +54,4 @@ void main()
     {
         printf("%d ", A[k]);
     }
-    printf("\n");
 }
